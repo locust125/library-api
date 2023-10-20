@@ -1,0 +1,27 @@
+{
+  "name": "api-biblioteca",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^1.40.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "express-validator": "^7.0.1",
+    "fs-extra": "^11.1.1",
+    "mongoose": "^7.5.1",
+    "mongoose-paginate-v2": "^1.7.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1"
+  }
+}
